@@ -8,6 +8,7 @@ use App\Models\ConteudoModel;
 
 class ConteudoController extends BaseController
 {
+    protected $helpers = ['url'];
     public function index()
     {
        
